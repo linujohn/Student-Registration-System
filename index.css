@@ -1,0 +1,48 @@
+.container img{
+	width: 5em;
+	height: 5em;
+}
+
+body{
+	background: thistle;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 35em;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  text-align: center;
+  background-color: rgb(193, 155, 146);
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 8em;
+  text-align: right;
+  padding-bottom: 1em;
+}
+
+input,select{
+	font: 1em;
+	width: 25em;
+  	
+}
+input[type="submit"]{
+  width: 10em;
+} 
+
+input:focus,select:focus{
+	border-color: #000;
+
+}
+.button {
+  
+  padding-top: 2em;
+  text-align: center;
+  
+}
